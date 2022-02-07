@@ -47,6 +47,7 @@ function Row({ title, fetchUrl, isLargeRow },movie) {
 			<div className="row__posters">
 					<ContentLoader
 					className="content"
+					speed={4}
 					width={380}
 					height={200}
 					backgroundColor="#f0f0f0"
@@ -58,6 +59,7 @@ function Row({ title, fetchUrl, isLargeRow },movie) {
 					</ContentLoader>
 					<ContentLoader
 					className="content"
+						speed={4}
 						width={380}
 						height={200}
 						backgroundColor="#f0f0f0"
@@ -69,6 +71,7 @@ function Row({ title, fetchUrl, isLargeRow },movie) {
 					</ContentLoader>
 						<ContentLoader
 					className="content"
+					speed={4}
 					width={380}
 					height={200}
 					backgroundColor="#f0f0f0"
@@ -80,6 +83,7 @@ function Row({ title, fetchUrl, isLargeRow },movie) {
 					</ContentLoader>
 						<ContentLoader
 					className="content"
+					speed={4}
 					width={380}
 					height={200}
 					backgroundColor="#f0f0f0"
