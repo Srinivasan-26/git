@@ -6,7 +6,7 @@ import movieTrailer from "movie-trailer"
 import ContentLoader from "react-content-loader"
 const baseUrl = "https://image.tmdb.org/t/p/original/"
 
-function Row({ title, fetchUrl, isLargeRow }) {
+function Row({ title, fetchUrl, isLargeRow },movie) {
 	const [movies, setMovies] = useState([])
 
 	const [trailerUrl, setTrailerUrl] = useState("")
