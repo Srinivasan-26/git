@@ -34,3 +34,10 @@
 .row__posterLarge:hover {
 	transform: scale(1.09);
 }
+.content {
+	position: relative;
+	left: 0px;
+	margin-top: -50px;
+	background-repeat: repeat-x;
+	opacity: 0.8;
+}
