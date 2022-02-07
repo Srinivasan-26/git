@@ -45,7 +45,50 @@ function Row({ title, fetchUrl, isLargeRow }) {
 		<div className="row">
 			<h2>{title}</h2>
 			<div className="row__posters">
-				<ContentLoader />
+					<ContentLoader
+					className="content"
+					width={380}
+					height={200}
+					backgroundColor="#f0f0f0"
+					foregroundColor="#dedede"
+					{...movie}>
+					<rect x="40" y="50" rx="2" ry="2" width="350" height="200" />
+					<rect x="40" y="230" rx="2" ry="2" width="80" height="150" />
+					<rect x="60" y="230" rx="2" ry="2" width="80" height="150" />
+					</ContentLoader>
+					<ContentLoader
+					className="content"
+						width={380}
+						height={200}
+						backgroundColor="#f0f0f0"
+						foregroundColor="#dedede"
+						{...movie}>
+						<rect x="40" y="50" rx="2" ry="2" width="350" height="200" />
+						<rect x="40" y="230" rx="2" ry="2" width="80" height="150" />
+						<rect x="60" y="230" rx="2" ry="2" width="80" height="150" />
+					</ContentLoader>
+						<ContentLoader
+					className="content"
+					width={380}
+					height={200}
+					backgroundColor="#f0f0f0"
+					foregroundColor="#dedede"
+					{...movie}>
+					<rect x="40" y="50" rx="2" ry="2" width="350" height="200" />
+					<rect x="40" y="230" rx="2" ry="2" width="80" height="150" />
+					<rect x="60" y="230" rx="2" ry="2" width="80" height="150" />
+					</ContentLoader>
+						<ContentLoader
+					className="content"
+					width={380}
+					height={200}
+					backgroundColor="#f0f0f0"
+					foregroundColor="#dedede"
+					{...movie}>
+					<rect x="40" y="50" rx="2" ry="2" width="350" height="200" />
+					<rect x="40" y="230" rx="2" ry="2" width="80" height="150" />
+					<rect x="60" y="230" rx="2" ry="2" width="80" height="150" />
+				</ContentLoader>
 				{movies?.map((movie) => (
 					<img
 						key={movie.id}
